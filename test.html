@@ -2,6 +2,9 @@
   <head>
     <title>Hello I'm Dane</title>
     <link src="css/test.css" rel="stylesheet" type="text/css">
+    <link src="css/lightbox.css" rel="stylesheet" type="text/css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <meta charset="utf-8">
     <style>
       .img1{
         transition:0.1s ease-in;
@@ -36,21 +39,27 @@
     <a href="http://google.com" target="_blank"><h3>THIS GOES TO GOOGLE!</h3></a>
     <br>
     <p><strong>
-      I BROKE THE LINE AND I"M STRONG
+      I BROKE THE LINE AND<sup>I'm</sup> STRONG<sub>with a subscript</sub>
     </strong>
     </p>
     <br>
     <h1><mark><small>...Aaaaaand </small></mark><br>I broke the line AGAIN!</h1>
     <pre> <i>
     <del>D</del>
-      A
+      <q>A</q>
       N
       E
     </i>
   </pre>
-  <image src="images/nuclear-fusion.jpg" alt="click me"/>
+  <hr>
+  <abbr title="Deoxyribonucleicacid">DNA</abbr>
+  <blockquote>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </blockquote>
+  <a href="images/nuclear-fusion.jpg" data-lightbox="image-1" data-title="I DID IT"><image src="images/nuclear-fusion.jpg" alt="click me"/></a>
   <caption>
     Click the above image!
   </caption>
+  <bdo dir="rtl">This text is written backwards! HAHA</bdo>
   </body>
 </html>
