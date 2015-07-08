@@ -1,0 +1,12 @@
+.cont p, .cont h1{
+  text-align: center;
+}
+.cont{
+  width:50% !important;
+}
+ul{
+  list-style: square;
+  width:70%;
+  position: relative;
+  left:20%;
+}
