@@ -1,0 +1,63 @@
+.cont{
+  width:66%;
+  margin:10px auto;
+}
+.animbox{
+  width:200px;
+  height:200px;
+  position:absolute;
+  animation: animboxanim 5s infinite;
+}
+.animbox p{
+  animation: colorchange 5s infinite;
+}
+.hobbies{
+  list-style: square;
+}
+@keyframes animboxanim{
+  0%{
+    left:10%;
+    top:10%;
+    background-color: #123456;
+  }
+  25%{
+    left:90%;
+    top:10%;
+    background-color: #B10000;
+    border-radius: 0;
+  }
+  50%{
+    left:90%;
+    top:90%;
+    background-color: #FFF;
+    border-radius:100%;
+  }
+  75%{
+    top:90%;
+    left:10%;
+    background-color:#618253;
+    border-radius: 0;
+  }
+  100%{
+    left:10%;
+    top:10%;
+    background-color: #123456;
+  }
+}
+@keyframes colorchange{
+  0%{
+    color:#FFF;
+  }
+  25%{
+    color:#FFF
+  }
+  50%{
+    color:#222;
+  }
+  75%{
+    color:#FFF;
+  }
+  100%{
+    color:#FFF;
+  }
+}

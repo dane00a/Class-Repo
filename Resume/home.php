@@ -5,6 +5,7 @@
     <link href="css/home.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+      <?php include("menu.html"); ?>
       <h1 style="text-align:center;">I'm Dane Andrews.</h1>
       <hr>
       <div class="whoami cont">
@@ -40,7 +41,7 @@
           Well, here goes...
         </p>
         <h4>Some hobbies I have include...</h4>
-        <ul>
+        <ul class="hobbies">
           <li>
             Playing the occasional computer game (right now Arma 3)
           </li>
@@ -54,11 +55,6 @@
             Swimming
           </li>
         </ul>
-      </div>
-      <div class="animbox">
-        <p>
-          Is this box not amusing?
-        </p>
       </div>
   </body>
 </html>
