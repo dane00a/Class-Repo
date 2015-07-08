@@ -17,7 +17,7 @@
       <hr>
       <div class="cont">
         <h3>Here's a list of my qualifications in Programming:</h3>
-        <p>
+        <p class="list_cap">
           Languages I Can Use:
         </p>
         <ul>
@@ -37,7 +37,7 @@
             Opsimai*
           </li>
         </ul>
-        <p>
+        <p class="list_cap">
           Languages I will soon be investing in:
         </p>
         <ul>
