@@ -3,6 +3,7 @@
   <head>
     <link href="css/common.css" rel="stylesheet" type="text/css">
     <link href="css/home.css" rel="stylesheet" type="text/css">
+    <script src="js/phpcheck.js"></script>
     <style>
       .doh {
         text-align:center;
