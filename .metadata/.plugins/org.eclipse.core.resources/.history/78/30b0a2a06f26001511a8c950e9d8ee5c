@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class helloWorld {
 	public static void main(String []args){
 		System.out.println("Hello World");
@@ -19,12 +19,5 @@ public class helloWorld {
 				System.out.println(x);
 			}
 		}
-		Scanner potato = new Scanner (System.in);
-		System.out.print("Enter user input, or you DIE: ");
-//		String user_input = potato.nextLine();
-		String user_input = "HELLO CHILDREN I AM DA MAD MANE";
-		System.out.println(user_input);
-		String [] hellobaby = {"Hello", "Goodybye", "I", "Say", "Yes","You", "Say", "No"};
-		
 	}
 }
